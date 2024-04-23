@@ -8,14 +8,17 @@
 // Comparadores
 // Ingrese dos palabras cualesquiera y realice las sigueintes
 // comparaciones entre ellas
-const texto1 = prompt('Ingrese la primera palabra:');
+const texto01 = prompt('Ingrese la primera palabra:');
 
-const texto2 = prompt('Ingrese la segunda palabra:');
+const texto02 = prompt('Ingrese la segunda palabra:');
 
 //  Compare cual de las dos palabras es mayor (alfabéticamente)
 //  Imprima en pantalla según corresponda
-console.log(texto1.localeCompare(texto2));
-console.log(texto2.localeCompare(texto1));
+if(texto01>texto02){
+    console.log("texto1 es mayor a texto2")
+}else{
+    console.log("texto2 es mayor a texto1")
+}
 
 
 

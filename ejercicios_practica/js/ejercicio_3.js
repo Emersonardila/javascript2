@@ -17,8 +17,9 @@ const numero2 = -2;
 
 
 
-if(numero2== -2){
-    console.log("numero 2 es -")
+if(numero1>5){
+    console.log("numero1 es mayor a 5")
 }else{
-    console.log("numero 2 es +")
+    console.log("numero1 es menor a 5 ")
 }
+

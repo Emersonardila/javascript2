@@ -10,8 +10,11 @@ let texto2 = '7';
 
 //  Verifique cual cual de los dos textos es mayor alfabéticamente
 //  Imprima en pantalla según corresponda
-console.log(texto1.localeCompare(texto2));
-console.log(texto2.localeCompare(texto1));
+if(texto1>texto2){
+    console.log("texto1 es mayor a texto2")
+}else{
+    console.log("texto2 es mayor a texto1")
+}
 //  Transforma esas variables tipo texto y almacénalas
 //  en nuevas variables númericas (Number) con parseInt()
 //  Repita el proceso, ¿Cuál de las nuevas variables es mayor?
@@ -29,5 +32,6 @@ if(texto01>texto02){
 //  aún así el operador arroja el mismo resultado que con las
 //  variables numéricas, cierto? ¿Por qué creen que es así?
 //  Esta pregunta estará repetida en el Campus para que puedan
-//  responder.
+//  responder. esto es gracias al codigo ASCII que es un sisitema de codificacionque asigna un valor
+//  numerico unico a diferentes caracteres
 //  NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
